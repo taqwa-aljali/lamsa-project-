@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر لمسة | سلة التسوق</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>لمسة</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">الصفحة الرئيسية</a></li>
+                <li><a href="products.html">المنتجات</a></li>
+                <li><a href="cart.html">سلة التسوق</a></li>
+                <li><a href="checkout.html">إتمام الطلب / تواصل معنا</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="cart-header">
+            <h2>سلة التسوق</h2>
+            <p>مراجعة المنتجات المضافة في السلة:</p>
+        </section>
+        <hr>
+        <section class="cart-content">
+            <table border="1" style="width:100%; text-align:center; border-collapse:collapse;">
+                <thead>
+                    <tr>
+                        <th>المنتج</th>
+                        <th>السعر</th>
+                        <th>الكمية</th>
+                        <th>الإجمالي</th>
+                        <th>حذف</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>خاتم فضي - مقاس 7</td>
+                        <td>150 ر.س</td>
+                        <td><input type="number" value="1" min="1" style="width: 50px;"></td>
+                        <td>150 ر.س</td>
+                        <td><button>🗑️</button></td>
+                    </tr>
+                    <tr>
+                        <td>سلسال لولو - طول 45 سم</td>
+                        <td>250 ر.س</td>
+                        <td><input type="number" value="1" min="1" style="width: 50px;"></td>
+                        <td>250 ر.س</td>
+                        <td><button>🗑️</button></td>
+                    </tr>
+                    <tr>
+                        <td>أساور ذهبية - مقاس 17 سم</td>
+                        <td>320 ر.س</td>
+                        <td><input type="number" value="1" min="1" style="width: 50px;"></td>
+                        <td>320 ر.س</td>
+                        <td><button>🗑️</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <div class="cart-summary" style="text-align: left; margin-top: 20px;">
+                <p><strong>المجموع الفرعي:</strong> 720 ر.س</p>
+                <p><strong>الشحن:</strong> 20 ر.س</p>
+                <h3><strong>الإجمالي الكلي:</strong> 740 ر.س</h3>
+                <a href="checkout.html"><button style="padding: 10px 20px; font-size: 16px;">إتمام الطلب</button></a>
+            </div>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2026 | متجر لمسة للمجوهرات والإكسسوارات</p>
+    </footer>
+</body>
+</html>
