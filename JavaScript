@@ -1,0 +1,15 @@
+// أكواد تفاعلية لمتجر لمسة للمجوهرات
+document.addEventListener('DOMContentLoaded', () => {
+    console.log("متجر لمسة جاهز ومستعد!");
+
+    // محاكاة إضافة منتج للسلة
+    const buyButtons = document.querySelectorAll('.btn');
+    let cartCount = 0;
+
+    buyButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            cartCount++;
+            alert(`تم إضافة المنتج إلى السلة بنجاح! عدد العناصر الحالية: ${cartCount}`);
+        });
+    });
+});
